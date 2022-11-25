@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.first .nav{
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 1250px;
+      padding: 0 50px;
+      z-index: 1000000;
+
+}
+
+.first .nav img{
+    width: 200px;
+}
+
+.first .nav a{
+    background-color: rgb(240, 30, 30);
+    color: white;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 3px;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-bottom: 0.6rem solid #111;
+}
+
+.background:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to bottom, black, transparent);
+}
+
+.background:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    z-index: 1;
+    background: linear-gradient(to top, black, transparent);
+}
+  
+
+.background .fit{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.background .container1{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.background .container1 .statement1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.background .container1 .statement1 h2{
+    font-size: 50px;
+   }
+
+.background .container1 .statement1 h5{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.background .container1 .statement1 p{
+    font-size: 15px ;
+    font-weight: 500;
+    padding: 15px 0;
+    padding-bottom: 20px;
+}
+
+.background .container1 .email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.background .container1 .email input{
+    font-size: 16px;
+    border: 1px solid #8c8c8c;
+    outline: none;
+    border-radius: 2px;
+    padding: 10px 10px 0 0;
+    min-width: 400px; 
+    height: 60px;
+    align-items: center;
+}
+
+.background .container1 .email a{
+    text-decoration: none;
+    background-color: rgb(235, 21, 21);
+    color: white;
+    min-width: 200px;
+    Line-height: 60px;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    font-size: 1.625rem;
+    padding: 0 30px;
+
+    /*font-weight: 400;
+    align-items: center;
+    border-radius: 2px;*/
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-bottom: 0.6rem solid #111;
+
+}
+
+.second .statement2{
+    width: 40%;
+
+}
+
+.second .statement2 h1{
+   font-size: 50px;
+   letter-spacing: 1px;
+   padding-bottom: 10px;
+   color: white;
+
+}
+
+.second .statement2 p{
+    font-size: 25px;
+    color: white;
+ 
+ }
+
+
+.second .image{
+    width: 45%;
+    
+}
+
+.second .image img{
+    width: 100%;
+    
+}
+
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-bottom: 0.6rem solid #111;
+
+}
+
+.third .statement3{
+    width: 50%;
+
+}
+
+.third .statement3 h1{
+   font-size: 50px;
+   letter-spacing: 1px;
+   padding-bottom: 10px;
+   color: white;
+
+}
+
+.third .statement3 p{
+    font-size: 25px;
+    color: white;
+ 
+ }
+
+
+.third .image1{
+    width: 45%;
+    
+}
+
+.third .image1 img{
+    width: 100%;
+    
+}
+
+
+.fourth{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-bottom: 0.6rem solid #111;
+
+}
+
+.fourth .statement4{
+    width: 50%;
+
+}
+
+.fourth .statement4 h1{
+   font-size: 50px;
+   letter-spacing: 1px;
+   padding-bottom: 10px;
+   color: white;
+
+}
+
+.fourth .statement4 p{
+    font-size: 25px;
+    color: white;
+ 
+ }
+
+ .fifth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 4rem;
+    border-bottom: 0.6rem solid #111;
+
+}
+
+.fifth .statement5{
+    width:52%;
+
+}
+
+.fifth .statement5 h1{
+   font-size: 50px;
+   letter-spacing: 1px;
+   padding-bottom: 10px;
+   color: white;
+
+}
+
+.fifth .statement5 p{
+    font-size: 25px;
+    color: white;
+ 
+ }
+
+
+.fifth .image2{
+    width: 45%;
+    
+}
+
+.fifth .image2 img{
+    width: 100%;
+}
+
+.lists{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    margin: auto;
+    align-items: center;
+}
+
+.lists h1{
+  color: white;
+  padding: 3rem 0 4rem 0 ;
+  font-size: 3rem;
+}
+
+.title{
+    background-color: #303030;
+    padding:20px 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.icon{
+    width: 20px;
+    position: relative;
+}
+
+.icon::before, .icon::after{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    content: "";
+    position: absolute;
+    top: -1.5px ;
+}
+
+.icon::after{
+    transform: rotate(90deg);
+    transition:0.5s linear;
+}
+
+.answer{
+    background-color: #303030;
+    margin:3px 0;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 400;
+    height: 0;
+    line-height: 35px;
+    opacity: 0;
+}
+
+.content:target .answer{ 
+    opacity: 0;
+    height: auto;
+    padding: 20px 30px;
+    margin: 0;
+    margin-bottom:6px;
+    border-top: 2px solid black;
+}
+
+.background2{
+    border-bottom: 0.6rem solid #111;
+}
+
+.background2 .container1{
+    margin: 4rem 0;
+}
+
+.background2 .container1 .statement1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.background2 .container1 .statement1 h2{
+    font-size: 50px;
+   }
+
+.background2 .container1 .statement1 h5{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+.background2 .container1 .statement1 p{
+    font-size: 15px ;
+    font-weight: 500;
+    padding: 15px 0;
+    padding-bottom: 20px;
+}
+
+.background2 .container1 .email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.background2 .container1 .email input{
+    font-size: 16px;
+    border: 1px solid #8c8c8c;
+    outline: none;
+    border-radius: 2px;
+    padding: 10px 10px 0 0;
+    min-width: 400px; 
+    height: 60px;
+    align-items: center;
+}
+
+.background2 .container1 .email a{
+    text-decoration: none;
+    background-color: rgb(235, 21, 21);
+    color: white;
+    min-width: 200px;
+    Line-height: 60px;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+    font-size: 1.625rem;
+    padding: 0 30px;
+}
+
+.conclusion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding: 4rem 0;
+
+}
+
+.conclusion .begin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 25%;
+
+}
+
+.conclusion .begin li{
+    padding: 7px 0;
+}
+
+.conclusion .begin li a{
+    color:  rgb(199, 190, 190);
+    text-decoration: none;
+}
+
+.conclusion .begin li a:hover{
+    border-bottom: 1px solid #ccc;
+}
+
+.conclusion .end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    width: 25%;
+
+}
+
+.conclusion .end li{
+    padding: 7px 0;
+}
+
+.conclusion .end li a{
+    color: rgb(199, 190, 190);
+    text-decoration: none;
+}
+
+.conclusion .end li a:hover{
+    border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+/**{ margin:0; padding:0}
+
+.first
+{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background-blend-mode: darken;
+ background-image: linear-gradient(rgba(0,0,0,0.555),rgba(0,0,0,0.555)), url("background\ picture.jpg");
+}
+
+
+.first .logo
+{
+    width: 180px;
+}
+
+.first .btn{
+    color: white;
+    background-color: rgb(235, 14, 14);
+    display: inline-block;
+    padding: 8px 17px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: auto;
+    padding-left: 20px;
+    padding-right: 50px;
+    align-items: center;
+
+}
+
+.first .container{
+    margin-top: 80px;
+    margin-left: 400px;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first .container h1{
+    font-size: 50px;
+    
+}
+
+.first .container .cont{
+    font-size: 30px;
+  
+}
+
+
+.first .email{
+    background-color: white;
+    width: 500px;
+    height: fit-content ;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+.first .email input{
+    padding: 20px 15px;
+    border: none;
+    outline: none;
+}
+
+.first .email a{
+    background-color: rgb(240, 29, 29);
+    padding: 20px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: 400px;
+    font-size: 20px;
+}*/
+
+/*.email a:hover{
+    background-color: red;
+}*/
+
+/*Second Section*/
+
+/*.second
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+      
+}
+
+.second .statement1{
+    width: 40%;
+}
+
+.second .image1{
+    width: 40%;
+    
+}*/
